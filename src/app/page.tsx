@@ -96,7 +96,7 @@ export default function LandingPage() {
         },
       ]}
       enableKpiAnimation={true}
-      tag="Your Car's Best Friend"
+      tag=""
       buttons={[
         {
           text: "Explore Packages",
