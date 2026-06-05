@@ -155,6 +155,7 @@ export default function LandingPage() {
       <PricingCardOne
       animationType="slide-up"
       textboxLayout="default"
+      gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       carouselMode="buttons"
       plans={[
@@ -194,7 +195,7 @@ export default function LandingPage() {
         {
           id: "4",          title: "Exceptional value and service.",          quote: "I've tried many detailing services, but Junior's stands out. The team is friendly, efficient, and they truly care about delivering perfection. My go-to for car care now.",          name: "David K.",          role: "Tech Professional",          imageSrc: "http://img.b2bpic.net/free-photo/woman-fastening-helmet-man_23-2147764135.jpg",          imageAlt: "Smiling man with glasses"},
         {
-          id: "5",          title: "A truly refreshing experience!",          quote: "The interior of my car feels brand new. No more lingering odors or stains. It's a huge relief to have such a clean and fresh vehicle without any effort on my part.",          name: "Jessica L.",          role: "Real Estate Agent",          imageSrc: "http://img.b2bpic.net/free-photo/woman-cleaning-her-car-outside_23-2148958782.jpg",          alt: "Smiling woman in professional setting"},
+          id: "5",          title: "A truly refreshing experience!",          quote: "The interior of my car feels brand new. No more lingering odors or stains. It's a huge relief to have such a clean and fresh vehicle without any effort on my part.",          name: "Jessica L.",          role: "Real Estate Agent",          imageSrc: "http://img.b2bpic.net/free-photo/woman-cleaning-her-car-outside_23-2148958782.jpg",          imageAlt: "Smiling woman in professional setting"},
       ]}
       title="What Our Clients Say"
       description="Hear directly from our satisfied customers about the exceptional care and convenience they've experienced with Junior Mobile Detailing."
