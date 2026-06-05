@@ -23,7 +23,7 @@ export default function LandingPage() {
         contentWidth="compact"
         sizing="medium"
         background="circleGradient"
-        cardStyle="solid"
+        cardStyle="gradient-bordered"
         primaryButtonStyle="flat"
         secondaryButtonStyle="solid"
         headingFontWeight="light"
@@ -33,19 +33,33 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",          id: "#home"},
+          name: "Home",
+          id: "#home",
+        },
         {
-          name: "Services",          id: "#services"},
+          name: "Services",
+          id: "#services",
+        },
         {
-          name: "Packages",          id: "#packages"},
+          name: "Packages",
+          id: "#packages",
+        },
         {
-          name: "About Us",          id: "#about"},
+          name: "About Us",
+          id: "#about",
+        },
         {
-          name: "Testimonials",          id: "#testimonials"},
+          name: "Testimonials",
+          id: "#testimonials",
+        },
         {
-          name: "FAQ",          id: "#faq"},
+          name: "FAQ",
+          id: "#faq",
+        },
         {
-          name: "Schedule",          id: "#schedule"},
+          name: "Schedule",
+          id: "#schedule",
+        },
       ]}
       logoSrc="http://img.b2bpic.net/free-vector/hand-drawn-car-detailing-logo-design_23-2149903187.jpg"
       logoAlt="Junior Mobile Detailing Logo"
@@ -53,64 +67,106 @@ export default function LandingPage() {
       bottomLeftText="Your Car's Best Friend"
       bottomRightText="hello@juniordetailing.com"
       button={{
-        text: "Book Now",        href: "#schedule"}}
+        text: "Book Now",
+        href: "#schedule",
+      }}
     />
   </div>
 
   <div id="home" data-section="home">
       <HeroSplitKpi
       background={{
-        variant: "plain"}}
+        variant: "plain",
+      }}
       imagePosition="right"
       title="Junior Mobile Detailing"
       description="Premium car care delivered right to your doorstep. Experience convenience and a showroom shine without leaving your home or office."
       kpis={[
         {
-          value: "",          label: ""},
+          value: "",
+          label: "",
+        },
         {
-          value: "",          label: ""},
+          value: "5",
+          label: "Star Reviews",
+        },
         {
-          value: "",          label: ""},
+          value: "10+",
+          label: "Years Experience",
+        },
       ]}
       enableKpiAnimation={true}
       tag=""
       buttons={[
         {
-          text: "Explore Packages",          href: "#packages"},
+          text: "Explore Packages",
+          href: "#packages",
+        },
         {
-          text: "Schedule Now",          href: "#schedule"},
+          text: "Schedule Now",
+          href: "#schedule",
+        },
       ]}
       imageSrc="https://img.b2bpic.net/premium-photo/manual-cleaning-with-soap-self-care-car-wash-cleaning-headlights-with-foam-soft-brush-carwash-detailing_255847-12711.jpg?id=250084748"
       imageAlt="Mobile detailing van cleaning a car with a glossy finish"
       mediaAnimation="slide-up"
       avatars={[
         {
-          src: "https://img.b2bpic.net/premium-photo/lamborghini_883586-185273.jpg?id=140336431",          alt: "Expert informs woman of car motor costs"},
+          src: "http://img.b2bpic.net/free-photo/expert-informs-woman-car-motor-costs_482257-96392.jpg",
+          alt: "Expert informs woman of car motor costs",
+        },
         {
-          src: "https://img.b2bpic.net/free-photo/sport-car-with-black-white-autotuning-driving-forest_114579-4076.jpg?id=5896010",          alt: "Stylish and elegant woman in a car salon"},
+          src: "http://img.b2bpic.net/free-photo/stylish-elegant-woman-car-salon_1157-32018.jpg",
+          alt: "Stylish and elegant woman in a car salon",
+        },
         {
-          src: "https://img.b2bpic.net/premium-photo/sleek-silver-bmw-m4-coupe-with-black-wheels-parked-wet-asphalt-road_14117-603641.jpg?id=225995526",          alt: "Business woman using smartphone in the street"},
+          src: "http://img.b2bpic.net/free-photo/business-woman-using-smartphone-street_23-2148213565.jpg",
+          alt: "Business woman using smartphone in the street",
+        },
         {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EgzsipZwd3Gn5A6GsVUFBvEYFA/tmp/vintage-car-1780619030107-3aade2ae.png",          alt: "Passenger using her mobile phone in the car"},
+          src: "http://img.b2bpic.net/free-photo/passenger-using-her-mobile-phone-car_23-2148510543.jpg",
+          alt: "Passenger using her mobile phone in the car",
+        },
         {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EgzsipZwd3Gn5A6GsVUFBvEYFA/tmp/corvette-1780619074346-a4abc66a.png",          alt: "Horizontal portrait of young girl with long hair in glasses walking on parking zone. She wears yellow sweater and black jacket. She is smiling to the camera and holds phone in hands."},
+          src: "http://img.b2bpic.net/free-photo/horizontal-portrait-young-girl-with-long-hair-glasses-walking-parking-zone-she-wears-yellow-sweater-black-jacket-she-is-smiling-camera-holds-phone-hands_197531-483.jpg",
+          alt: "Horizontal portrait of young girl with long hair in glasses walking on parking zone. She wears yellow sweater and black jacket. She is smiling to the camera and holds phone in hands.",
+        },
       ]}
-      avatarText=""
+      avatarText="Join 500+ happy clients!"
       marqueeItems={[
         {
-          type: "image",          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=owaggp",          alt: "local business partnership logo"},
+          type: "image",
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=owaggp",
+          alt: "local business partnership logo",
+        },
         {
-          type: "image",          src: "http://img.b2bpic.net/free-vector/car-dealership-labels-template_23-2150777960.jpg",          alt: "car dealership logo modern"},
+          type: "image",
+          src: "http://img.b2bpic.net/free-vector/car-dealership-labels-template_23-2150777960.jpg",
+          alt: "car dealership logo modern",
+        },
         {
-          type: "image",          src: "http://img.b2bpic.net/free-vector/gradient-healthcare-logo-template_52683-139013.jpg",          alt: "insurance company logo car"},
+          type: "image",
+          src: "http://img.b2bpic.net/free-vector/gradient-healthcare-logo-template_52683-139013.jpg",
+          alt: "insurance company logo car",
+        },
         {
-          type: "image",          src: "http://img.b2bpic.net/free-photo/happy-businessman-african-american-mechanic-handshaking-auto-repair-shop_637285-11567.jpg",          alt: "fleet management company logo"},
+          type: "image",
+          src: "http://img.b2bpic.net/free-photo/happy-businessman-african-american-mechanic-handshaking-auto-repair-shop_637285-11567.jpg",
+          alt: "fleet management company logo",
+        },
         {
-          type: "image",          src: "http://img.b2bpic.net/free-vector/gradient-auto-parts-logo-design_52683-86801.jpg",          alt: "valet service logo luxury"},
+          type: "image",
+          src: "http://img.b2bpic.net/free-vector/gradient-auto-parts-logo-design_52683-86801.jpg",
+          alt: "valet service logo luxury",
+        },
         {
-          type: "text",          text: "Top Rated Service"},
+          type: "text",
+          text: "Top Rated Service",
+        },
         {
-          type: "text-icon",          text: "Eco-Friendly",          icon: Leaf,
+          type: "text-icon",
+          text: "Eco-Friendly",
+          icon: Leaf,
         },
       ]}
     />
@@ -139,11 +195,23 @@ export default function LandingPage() {
       carouselMode="buttons"
       features={[
         {
-          title: "Unmatched Convenience",          description: "We come to your home, fitting seamlessly into your busy schedule.",          imageSrc: "http://img.b2bpic.net/free-photo/auto-service-salon-doign-car-wrapping_23-2149593838.jpg",          imageAlt: "Mobile detailing van parked at a customer's home"},
+          title: "Unmatched Convenience",
+          description: "We come to you, whether at home or work, fitting seamlessly into your busy schedule.",
+          imageSrc: "http://img.b2bpic.net/free-photo/auto-service-salon-doign-car-wrapping_23-2149593838.jpg",
+          imageAlt: "Mobile detailing van parked at a customer's home",
+        },
         {
-          title: "Superior Quality",          description: "Our experienced detailers use only the finest products and techniques for a flawless finish.",          imageSrc: "http://img.b2bpic.net/free-photo/car-transmission-inside-car-salon-close-up_1303-19223.jpg",          imageAlt: "Close up of a car's shining interior after detailing"},
+          title: "Superior Quality",
+          description: "Our experienced detailers use only the finest products and techniques for a flawless finish.",
+          imageSrc: "http://img.b2bpic.net/free-photo/car-transmission-inside-car-salon-close-up_1303-19223.jpg",
+          imageAlt: "Close up of a car's shining interior after detailing",
+        },
         {
-          title: "Eco-Friendly Practices",          description: "We prioritize environmentally safe products and water-saving methods.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-car-care-washing_23-2149172891.jpg",          imageAlt: "Environmentally friendly car wash with foam"},
+          title: "Eco-Friendly Practices",
+          description: "We prioritize environmentally safe products and water-saving methods.",
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-car-care-washing_23-2149172891.jpg",
+          imageAlt: "Environmentally friendly car wash with foam",
+        },
       ]}
       title="Our Detailing Process"
       description="We blend meticulous attention to detail with professional-grade products to rejuvenate your vehicle, inside and out. Experience the ultimate convenience of premium car care at your location."
@@ -159,19 +227,43 @@ export default function LandingPage() {
       carouselMode="buttons"
       plans={[
         {
-          id: "exterior-wash",          badge: "Shine",          badgeIcon: Sparkles,
-          price: "$75",          subtitle: "Exterior Wash Package",          features: [
-            "Thorough Hand Wash",            "Wheel & Tire Cleaning",            "Tire Shine Application",            "Exterior Window Cleaning"],
+          id: "exterior-wash",
+          badge: "Shine",
+          badgeIcon: Sparkles,
+          price: "$75",
+          subtitle: "Exterior Wash Package",
+          features: [
+            "Thorough Hand Wash",
+            "Wheel & Tire Cleaning",
+            "Tire Shine Application",
+            "Exterior Window Cleaning",
+          ],
         },
         {
-          id: "interior-detail",          badge: "Refresh",          badgeIcon: Car,
-          price: "$120",          subtitle: "Interior Detail Package",          features: [
-            "Deep Vacuuming",            "Surface Wipe Down",            "Interior Window Cleaning",            "Dashboard & Console Protectant"],
+          id: "interior-detail",
+          badge: "Refresh",
+          badgeIcon: Car,
+          price: "$120",
+          subtitle: "Interior Detail Package",
+          features: [
+            "Deep Vacuuming",
+            "Surface Wipe Down",
+            "Interior Window Cleaning",
+            "Dashboard & Console Protectant",
+          ],
         },
         {
-          id: "full-detail",          badge: "Elite",          badgeIcon: Star,
-          price: "$180",          subtitle: "Exterior & Interior Full Detail",          features: [
-            "Premium Hand Wash & Wax",            "Advanced Wheel & Tire Detailing",            "Full Interior Deep Clean",            "Leather Conditioning / Fabric Protectant"],
+          id: "full-detail",
+          badge: "Elite",
+          badgeIcon: Star,
+          price: "$180",
+          subtitle: "Exterior & Interior Full Detail",
+          features: [
+            "Premium Hand Wash & Wax",
+            "Advanced Wheel & Tire Detailing",
+            "Full Interior Deep Clean",
+            "Leather Conditioning / Fabric Protectant",
+          ],
         },
       ]}
       title="Choose Your Perfect Package"
@@ -186,15 +278,50 @@ export default function LandingPage() {
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "1",          title: "Absolutely outstanding service!",          quote: "Junior Mobile Detailing brought my car back to life. The attention to detail was incredible, and the convenience of them coming to my office was a game-changer. Highly recommend!",          name: "Sarah J.",          role: "Marketing Executive",          imageSrc: "http://img.b2bpic.net/free-photo/man-checking-out-new-car_23-2148130140.jpg",          imageAlt: "Smiling woman in business attire"},
+          id: "1",
+          title: "Absolutely outstanding service!",
+          quote: "Junior Mobile Detailing brought my car back to life. The attention to detail was incredible, and the convenience of them coming to my office was a game-changer. Highly recommend!",
+          name: "Sarah J.",
+          role: "Marketing Executive",
+          imageSrc: "http://img.b2bpic.net/free-photo/man-checking-out-new-car_23-2148130140.jpg",
+          imageAlt: "Smiling woman in business attire",
+        },
         {
-          id: "2",          title: "My car has never looked this good!",          quote: "I'm always impressed by the professionalism and thoroughness. Every nook and cranny is spotless, and the exterior shine lasts for weeks. Worth every penny!",          name: "Michael D.",          role: "Small Business Owner",          imageSrc: "http://img.b2bpic.net/free-photo/view-woman-with-car-gas-station_23-2150516410.jpg",          imageAlt: "Smiling man in casual wear"},
+          id: "2",
+          title: "My car has never looked this good!",
+          quote: "I'm always impressed by the professionalism and thoroughness. Every nook and cranny is spotless, and the exterior shine lasts for weeks. Worth every penny!",
+          name: "Michael D.",
+          role: "Small Business Owner",
+          imageSrc: "http://img.b2bpic.net/free-photo/view-woman-with-car-gas-station_23-2150516410.jpg",
+          imageAlt: "Smiling man in casual wear",
+        },
         {
-          id: "3",          title: "Convenience meets quality.",          quote: "As a busy parent, finding time for a car wash is tough. Junior Mobile Detailing makes it easy, and their results are far superior to any traditional car wash.",          name: "Emily R.",          role: "Stay-at-Home Parent",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-using-her-mobile-phone-car_1301-3376.jpg",          imageAlt: "Smiling woman with bright background"},
+          id: "3",
+          title: "Convenience meets quality.",
+          quote: "As a busy parent, finding time for a car wash is tough. Junior Mobile Detailing makes it easy, and their results are far superior to any traditional car wash.",
+          name: "Emily R.",
+          role: "Stay-at-Home Parent",
+          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-using-her-mobile-phone-car_1301-3376.jpg",
+          imageAlt: "Smiling woman with bright background",
+        },
         {
-          id: "4",          title: "Exceptional value and service.",          quote: "I've tried many detailing services, but Junior's stands out. The team is friendly, efficient, and they truly care about delivering perfection. My go-to for car care now.",          name: "David K.",          role: "Tech Professional",          imageSrc: "http://img.b2bpic.net/free-photo/woman-fastening-helmet-man_23-2147764135.jpg",          imageAlt: "Smiling man with glasses"},
+          id: "4",
+          title: "Exceptional value and service.",
+          quote: "I've tried many detailing services, but Junior's stands out. The team is friendly, efficient, and they truly care about delivering perfection. My go-to for car care now.",
+          name: "David K.",
+          role: "Tech Professional",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-fastening-helmet-man_23-2147764135.jpg",
+          imageAlt: "Smiling man with glasses",
+        },
         {
-          id: "5",          title: "A truly refreshing experience!",          quote: "The interior of my car feels brand new. No more lingering odors or stains. It's a huge relief to have such a clean and fresh vehicle without any effort on my part.",          name: "Jessica L.",          role: "Real Estate Agent",          imageSrc: "http://img.b2bpic.net/free-photo/woman-cleaning-her-car-outside_23-2148958782.jpg",          imageAlt: "Smiling woman in professional setting"},
+          id: "5",
+          title: "A truly refreshing experience!",
+          quote: "The interior of my car feels brand new. No more lingering odors or stains. It's a huge relief to have such a clean and fresh vehicle without any effort on my part.",
+          name: "Jessica L.",
+          role: "Real Estate Agent",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-cleaning-her-car-outside_23-2148958782.jpg",
+          imageAlt: "Smiling woman in professional setting",
+        },
       ]}
       title="What Our Clients Say"
       description="Hear directly from our satisfied customers about the exceptional care and convenience they've experienced with Junior Mobile Detailing."
@@ -206,7 +333,14 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "Local Garages",        "Car Dealerships",        "Fleet Services",        "Valet Companies",        "Rental Agencies",        "Insurance Partners",        "Auto Enthusiast Clubs"]}
+        "Local Garages",
+        "Car Dealerships",
+        "Fleet Services",
+        "Valet Companies",
+        "Rental Agencies",
+        "Insurance Partners",
+        "Auto Enthusiast Clubs",
+      ]}
       title="Trusted by Drivers Across the City"
       description="Our commitment to excellence has earned us the trust of numerous individual car owners and local businesses."
     />
@@ -218,17 +352,35 @@ export default function LandingPage() {
       useInvertedBackground={true}
       faqs={[
         {
-          id: "faq-1",          title: "What areas do you serve?",          content: "Junior Mobile Detailing proudly serves the greater metropolitan area. Please contact us with your location for specific service area confirmation."},
+          id: "faq-1",
+          title: "What areas do you serve?",
+          content: "Junior Mobile Detailing proudly serves the greater metropolitan area. Please contact us with your location for specific service area confirmation.",
+        },
         {
-          id: "faq-2",          title: "How long does a detailing service take?",          content: "Service duration varies by package. An exterior wash typically takes 1-2 hours, an interior detail 2-3 hours, and a full detail 3-5 hours. Exact times will be provided upon booking."},
+          id: "faq-2",
+          title: "How long does a detailing service take?",
+          content: "Service duration varies by package. An exterior wash typically takes 1-2 hours, an interior detail 2-3 hours, and a full detail 3-5 hours. Exact times will be provided upon booking.",
+        },
         {
-          id: "faq-3",          title: "Do I need to provide water or electricity?",          content: "No, our vans are fully equipped with all necessary water and power. We just need access to your vehicle."},
+          id: "faq-3",
+          title: "Do I need to provide water or electricity?",
+          content: "No, our vans are fully equipped with all necessary water and power. We just need access to your vehicle.",
+        },
         {
-          id: "faq-4",          title: "What payment methods do you accept?",          content: "We accept cash and apple pay"},
+          id: "faq-4",
+          title: "What payment methods do you accept?",
+          content: "We accept all major credit cards, debit cards, and mobile payment options for your convenience.",
+        },
         {
-          id: "faq-5",          title: "Can I customize a detailing package?",          content: "Absolutely! Beyond our standard packages, we offer a range of add-on services to create a custom detailing experience tailored to your vehicle's needs. Please discuss options when booking."},
+          id: "faq-5",
+          title: "Can I customize a detailing package?",
+          content: "Absolutely! Beyond our standard packages, we offer a range of add-on services to create a custom detailing experience tailored to your vehicle's needs. Please discuss options when booking.",
+        },
         {
-          id: "faq-6",          title: "What is your cancellation policy?",          content: "We require at least 24 hours' notice for cancellations or rescheduling to avoid a cancellation fee. Please refer to our terms and conditions for full details."},
+          id: "faq-6",
+          title: "What is your cancellation policy?",
+          content: "We require at least 24 hours' notice for cancellations or rescheduling to avoid a cancellation fee. Please refer to our terms and conditions for full details.",
+        },
       ]}
       title="Frequently Asked Questions"
       description="Find answers to common questions about our mobile detailing services, booking process, and what to expect."
@@ -241,13 +393,16 @@ export default function LandingPage() {
       <ContactCTA
       useInvertedBackground={false}
       background={{
-        variant: "plain"}}
+        variant: "plain",
+      }}
       tag="Book Now"
       title="Ready for a Showroom Finish?"
       description="Schedule your next mobile detailing appointment with Junior Mobile Detailing today. Our team is ready to transform your vehicle with professional care and unparalleled convenience."
       buttons={[
         {
-          text: "Schedule Your Detail",          href: "#"},
+          text: "Schedule Your Detail",
+          href: "#",
+        },
       ]}
     />
   </div>
@@ -261,13 +416,19 @@ export default function LandingPage() {
       socialLinks={[
         {
           icon: Facebook,
-          href: "#",          ariaLabel: "Facebook"},
+          href: "#",
+          ariaLabel: "Facebook",
+        },
         {
           icon: Instagram,
-          href: "#",          ariaLabel: "Instagram"},
+          href: "#",
+          ariaLabel: "Instagram",
+        },
         {
           icon: Twitter,
-          href: "#",          ariaLabel: "Twitter"},
+          href: "#",
+          ariaLabel: "Twitter",
+        },
       ]}
     />
   </div>
