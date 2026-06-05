@@ -224,7 +224,7 @@ export default function LandingPage() {
         {
           id: "faq-3",          title: "Do I need to provide water or electricity?",          content: "No, our vans are fully equipped with all necessary water and power. We just need access to your vehicle."},
         {
-          id: "faq-4",          title: "What payment methods do you accept?",          content: "We accept all major credit cards, debit cards, and mobile payment options for your convenience."},
+          id: "faq-4",          title: "What payment methods do you accept?",          content: "We accept cash and apple pay"},
         {
           id: "faq-5",          title: "Can I customize a detailing package?",          content: "Absolutely! Beyond our standard packages, we offer a range of add-on services to create a custom detailing experience tailored to your vehicle's needs. Please discuss options when booking."},
         {
