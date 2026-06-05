@@ -301,7 +301,7 @@ export default function LandingPage() {
           quote: "As a busy parent, finding time for a car wash is tough. Junior Mobile Detailing makes it easy, and their results are far superior to any traditional car wash.",
           name: "Emily R.",
           role: "Stay-at-Home Parent",
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-woman-using-her-mobile-phone-car_1301-3376.jpg",
+          imageSrc: "https://img.b2bpic.net/premium-photo/microfiber-cloth-clean-headlight-car-vehicle-person_53876-1112159.jpg?id=418815286",
           imageAlt: "Smiling woman with bright background",
         },
         {
