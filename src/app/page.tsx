@@ -68,9 +68,9 @@ export default function LandingPage() {
         {
           value: "",          label: ""},
         {
-          value: "5",          label: "Star Reviews"},
+          value: "",          label: ""},
         {
-          value: "10+",          label: "Years Experience"},
+          value: "",          label: ""},
       ]}
       enableKpiAnimation={true}
       tag=""
