@@ -292,7 +292,7 @@ export default function LandingPage() {
           quote: "I'm always impressed by the professionalism and thoroughness. Every nook and cranny is spotless, and the exterior shine lasts for weeks. Worth every penny!",
           name: "Michael D.",
           role: "Small Business Owner",
-          imageSrc: "http://img.b2bpic.net/free-photo/view-woman-with-car-gas-station_23-2150516410.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EgzsipZwd3Gn5A6GsVUFBvEYFA/tmp/clean-car-1780621322353-48e3a644.png",
           imageAlt: "Smiling man in casual wear",
         },
         {
