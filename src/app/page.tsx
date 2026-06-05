@@ -243,7 +243,7 @@ export default function LandingPage() {
       logoSrc="http://img.b2bpic.net/free-vector/hand-drawn-car-detailing-logo-design_23-2149903187.jpg"
       logoAlt="Junior Mobile Detailing Logo"
       logoText="Junior Mobile Detailing"
-      copyrightText="© 2024 Junior Mobile Detailing. All rights reserved."
+      copyrightText="© 2026 Junior Mobile Detailing. All rights reserved."
       socialLinks={[
         {
           icon: Facebook,
