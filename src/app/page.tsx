@@ -85,17 +85,17 @@ export default function LandingPage() {
       mediaAnimation="slide-up"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/expert-informs-woman-car-motor-costs_482257-96392.jpg",          alt: "Expert informs woman of car motor costs"},
+          src: "https://img.b2bpic.net/premium-photo/lamborghini_883586-185273.jpg?id=140336431",          alt: "Expert informs woman of car motor costs"},
         {
-          src: "http://img.b2bpic.net/free-photo/stylish-elegant-woman-car-salon_1157-32018.jpg",          alt: "Stylish and elegant woman in a car salon"},
+          src: "https://img.b2bpic.net/free-photo/sport-car-with-black-white-autotuning-driving-forest_114579-4076.jpg?id=5896010",          alt: "Stylish and elegant woman in a car salon"},
         {
-          src: "http://img.b2bpic.net/free-photo/business-woman-using-smartphone-street_23-2148213565.jpg",          alt: "Business woman using smartphone in the street"},
+          src: "https://img.b2bpic.net/premium-photo/sleek-silver-bmw-m4-coupe-with-black-wheels-parked-wet-asphalt-road_14117-603641.jpg?id=225995526",          alt: "Business woman using smartphone in the street"},
         {
-          src: "http://img.b2bpic.net/free-photo/passenger-using-her-mobile-phone-car_23-2148510543.jpg",          alt: "Passenger using her mobile phone in the car"},
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EgzsipZwd3Gn5A6GsVUFBvEYFA/tmp/vintage-car-1780619030107-3aade2ae.png",          alt: "Passenger using her mobile phone in the car"},
         {
-          src: "http://img.b2bpic.net/free-photo/horizontal-portrait-young-girl-with-long-hair-glasses-walking-parking-zone-she-wears-yellow-sweater-black-jacket-she-is-smiling-camera-holds-phone-hands_197531-483.jpg",          alt: "Horizontal portrait of young girl with long hair in glasses walking on parking zone. She wears yellow sweater and black jacket. She is smiling to the camera and holds phone in hands."},
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EgzsipZwd3Gn5A6GsVUFBvEYFA/tmp/corvette-1780619074346-a4abc66a.png",          alt: "Horizontal portrait of young girl with long hair in glasses walking on parking zone. She wears yellow sweater and black jacket. She is smiling to the camera and holds phone in hands."},
       ]}
-      avatarText="Join 500+ happy clients!"
+      avatarText=""
       marqueeItems={[
         {
           type: "image",          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=owaggp",          alt: "local business partnership logo"},
