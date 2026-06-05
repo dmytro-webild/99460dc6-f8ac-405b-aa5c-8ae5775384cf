@@ -155,7 +155,6 @@ export default function LandingPage() {
       <PricingCardOne
       animationType="slide-up"
       textboxLayout="default"
-      gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       carouselMode="buttons"
       plans={[
