@@ -3,28 +3,36 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
-import ContactText from '@/components/sections/contact/ContactText';
 import FooterCard from '@/components/sections/footer/FooterCard';
-import { Facebook, Instagram, Twitter } from "lucide-react";
+import { Facebook, Instagram, Twitter, CalendarDays, Clock, MessageSquare, User, Mail, Phone, Car } from "lucide-react";
+import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 
 export default function BookingPage() {
   const navItems = [
     {
-      name: "Home",      id: "/"},
+      name: "Home",      id: "/"
+    },
     {
-      name: "Services",      id: "/#services"},
+      name: "Services",      id: "/#services"
+    },
     {
-      name: "Packages",      id: "/#packages"},
+      name: "Packages",      id: "/#packages"
+    },
     {
-      name: "Booking",      id: "/booking"},
+      name: "Booking",      id: "/booking"
+    },
     {
-      name: "About Us",      id: "/#about"},
+      name: "About Us",      id: "/#about"
+    },
     {
-      name: "Testimonials",      id: "/#testimonials"},
+      name: "Testimonials",      id: "/#testimonials"
+    },
     {
-      name: "FAQ",      id: "/#faq"},
+      name: "FAQ",      id: "/#faq"
+    },
     {
-      name: "Contact Us",      id: "/contact"},
+      name: "Contact Us",      id: "/contact"
+    }
   ];
 
   return (
@@ -56,16 +64,30 @@ export default function BookingPage() {
         </div>
 
         <div id="booking-form" data-section="booking-form">
-          <ContactText
-            text="Schedule Your Mobile Detailing Service. To book, please provide your Preferred Date, Preferred Time, Desired Service (e.g., Exterior Wash, Full Detail), Your Name, Email, and Phone Number. Our team will contact you shortly to confirm your appointment and gather any additional vehicle information."
-            background={{
-              variant: "radial-gradient"
-            }}
-            useInvertedBackground={false}
-            buttons={[
-              { text: "Call to Book", href: "tel:+1234567890" },
-              { text: "Email Us", href: "mailto:hello@juniordetailing.com" }
+          <ContactSplitForm
+            tag="Schedule Your Service"
+            title="Book Your Mobile Detailing Appointment"
+            description="Please fill out the form below with your preferred details. Our team will contact you to confirm your appointment and gather any additional vehicle information."
+            inputs={[
+              { name: "name", type: "text", placeholder: "Your Name", required: true },
+              { name: "email", type: "email", placeholder: "Your Email", required: true },
+              { name: "phone", type: "tel", placeholder: "Your Phone Number", required: true },
+              { name: "date", type: "date", placeholder: "Preferred Date", required: true },
+              { name: "time", type: "time", placeholder: "Preferred Time", required: true }
             ]}
+            multiSelect={{
+              name: "service",              label: "Desired Service",              options: ["Exterior Wash", "Interior Detail", "Full Detail", "Headlight Restoration", "Ceramic Coating"]
+            }}
+            textarea={{
+              name: "notes",              placeholder: "Any additional details or special requests?",              rows: 5
+            }}
+            imageSrc="http://img.b2bpic.net/free-photo/car-polishing-concept_23-2148421873.jpg"
+            imageAlt="Car being detailed"
+            mediaPosition="right"
+            buttonText="Confirm Booking"
+            onSubmit={(data) => console.log(data)}
+            background={{ variant: "plain" }}
+            useInvertedBackground={false}
           />
         </div>
 
@@ -78,13 +100,16 @@ export default function BookingPage() {
             socialLinks={[
               {
                 icon: Facebook,
-                href: "#",                ariaLabel: "Facebook"},
+                href: "#",                ariaLabel: "Facebook"
+              },
               {
                 icon: Instagram,
-                href: "#",                ariaLabel: "Instagram"},
+                href: "#",                ariaLabel: "Instagram"
+              },
               {
                 icon: Twitter,
-                href: "#",                ariaLabel: "Twitter"},
+                href: "#",                ariaLabel: "Twitter"
+              }
             ]}
           />
         </div>

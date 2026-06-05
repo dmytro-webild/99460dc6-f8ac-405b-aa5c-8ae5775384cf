@@ -11,27 +11,35 @@ import PricingCardOne from '@/components/sections/pricing/PricingCardOne';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import TestimonialCardTen from '@/components/sections/testimonial/TestimonialCardTen';
-import ContactCenter from '@/components/sections/contact/ContactCenter';
+
 import { Car, Facebook, Instagram, Leaf, Sparkles, Star, Twitter } from "lucide-react";
 
 export default function LandingPage() {
   const navItems = [
     {
-      name: "Home",      id: "#home"},
+      name: "Home",      id: "/"
+    },
     {
-      name: "Services",      id: "#services"},
+      name: "Services",      id: "/#services"
+    },
     {
-      name: "Packages",      id: "#packages"},
+      name: "Packages",      id: "/#packages"
+    },
     {
-      name: "Booking",      id: "#booking"},
+      name: "Booking",      id: "/booking"
+    },
     {
-      name: "About Us",      id: "#about"},
+      name: "About Us",      id: "/#about"
+    },
     {
-      name: "Testimonials",      id: "#testimonials"},
+      name: "Testimonials",      id: "/#testimonials"
+    },
     {
-      name: "FAQ",      id: "#faq"},
+      name: "FAQ",      id: "/#faq"
+    },
     {
-      name: "Contact Us",      id: "/contact"},
+      name: "Contact Us",      id: "/contact"
+    }
   ];
 
   return (
@@ -57,7 +65,7 @@ export default function LandingPage() {
       bottomLeftText="Your Car's Best Friend"
       bottomRightText="hello@juniordetailing.com"
       button={{
-        text: "Book Now",        href: "#booking"}}
+        text: "Book Now",        href: "/booking"}}
     />
   </div>
 
@@ -80,9 +88,9 @@ export default function LandingPage() {
       tag=""
       buttons={[
         {
-          text: "Explore Packages",          href: "#packages"},
+          text: "Explore Packages",          href: "/#packages"},
         {
-          text: "Schedule Now",          href: "#booking"},
+          text: "Schedule Now",          href: "/booking"},
       ]}
       imageSrc="https://img.b2bpic.net/premium-photo/manual-cleaning-with-soap-self-care-car-wash-cleaning-headlights-with-foam-soft-brush-carwash-detailing_255847-12711.jpg?id=250084748"
       imageAlt="Mobile detailing van cleaning a car with a glossy finish"
@@ -114,8 +122,8 @@ export default function LandingPage() {
         {
           type: "text",          text: "Top Rated Service"},
         {
-          type: "text-icon",          text: "Eco-Friendly",          icon: Leaf,
-        },
+          type: "text-icon",          text: "Eco-Friendly",          icon: Leaf
+        }
       ]}
     />
   </div>
@@ -143,14 +151,14 @@ export default function LandingPage() {
       carouselMode="buttons"
       features={[
         {
-          title: "Unmatched Convenience",          description: "We come to you, whether at home or work, fitting seamlessly into your busy schedule.",          imageSrc: "http://img.b2bpic.net/free-photo/auto-service-salon-doign-car-wrapping_23-2149593838.jpg",          imageAlt: "Mobile detailing van parked at a customer's home",          button: { text: "Book Now", href: "#booking" }
+          title: "Unmatched Convenience",          description: "We come to you, whether at home or work, fitting seamlessly into your busy schedule.",          imageSrc: "http://img.b2bpic.net/free-photo/auto-service-salon-doign-car-wrapping_23-2149593838.jpg",          imageAlt: "Mobile detailing van parked at a customer's home",          button: { text: "Book Now", href: "/booking" }
         },
         {
-          title: "Superior Quality",          description: "Our experienced detailers use only the finest products and techniques for a flawless finish.",          imageSrc: "http://img.b2bpic.net/free-photo/car-transmission-inside-car-salon-close-up_1303-19223.jpg",          imageAlt: "Close up of a car's shining interior after detailing",          button: { text: "Book Now", href: "#booking" }
+          title: "Superior Quality",          description: "Our experienced detailers use only the finest products and techniques for a flawless finish.",          imageSrc: "http://img.b2bpic.net/free-photo/car-transmission-inside-car-salon-close-up_1303-19223.jpg",          imageAlt: "Close up of a car's shining interior after detailing",          button: { text: "Book Now", href: "/booking" }
         },
         {
-          title: "Eco-Friendly Practices",          description: "We prioritize environmentally safe products and water-saving methods.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-car-care-washing_23-2149172891.jpg",          imageAlt: "Environmentally friendly car wash with foam",          button: { text: "Book Now", href: "#booking" }
-        },
+          title: "Eco-Friendly Practices",          description: "We prioritize environmentally safe products and water-saving methods.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-car-care-washing_23-2149172891.jpg",          imageAlt: "Environmentally friendly car wash with foam",          button: { text: "Book Now", href: "/booking" }
+        }
       ]}
       title="Our Detailing Process"
       description="We blend meticulous attention to detail with professional-grade products to rejuvenate your vehicle, inside and out. Experience the ultimate convenience of premium car care at your location."
@@ -168,40 +176,28 @@ export default function LandingPage() {
         {
           id: "exterior-wash",          badge: "Shine",          badgeIcon: Sparkles,
           price: "$60",          subtitle: "Exterior Wash Package",          features: [
-            "Thorough Hand Wash",            "Wheel & Tire Cleaning",            "Tire Shine Application",            "Exterior Window Cleaning"],
+            "Thorough Hand Wash",            "Wheel & Tire Cleaning",            "Tire Shine Application",            "Exterior Window Cleaning"]
         },
         {
           id: "interior-detail",          badge: "Refresh",          badgeIcon: Car,
           price: "$100",          subtitle: "Interior Detail Package",          features: [
-            "Deep Vacuuming",            "Surface Wipe Down",            "Interior Window Cleaning",            "Dashboard & Console Protectant"],
+            "Deep Vacuuming",            "Surface Wipe Down",            "Interior Window Cleaning",            "Dashboard & Console Protectant"]
         },
         {
           id: "full-detail",          badge: "Elite",          badgeIcon: Star,
           price: "$160",          subtitle: "Exterior & Interior Full Detail",          features: [
-            "Premium Hand Wash & Wax",            "Advanced Wheel & Tire Detailing",            "Full Interior Deep Clean",            "Leather Conditioning / Fabric Protectant"],
-        },
+            "Premium Hand Wash & Wax",            "Advanced Wheel & Tire Detailing",            "Full Interior Deep Clean",            "Leather Conditioning / Fabric Protectant"]
+        }
       ]}
       title="Choose Your Perfect Package"
       description="Select from our tailored detailing packages, each designed to bring out the best in your vehicle. All packages offer additional add-on services for a truly custom experience."
       tag="Our Services"
       buttons={[
-        { text: "Book Your Service", href: "#booking" }
+        { text: "Book Your Service", href: "/booking" }
       ]}
     />
   </div>
 
-  <div id="booking" data-section="booking">
-      <ContactCenter
-      tag="Book Your Appointment"
-      title="Schedule Your Mobile Detailing Service"
-      description="Ready for a sparkling clean car? Fill out the form below to book your appointment. We'll confirm your preferred time and location shortly."
-      background={{ variant: 'radial-gradient' }}
-      useInvertedBackground={false}
-      inputPlaceholder="Your Email"
-      buttonText="Book Now"
-      termsText="By clicking 'Book Now' you agree to our booking terms and conditions."
-    />
-  </div>
 
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardTen
