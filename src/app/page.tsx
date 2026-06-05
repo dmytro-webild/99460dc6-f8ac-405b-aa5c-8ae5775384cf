@@ -230,7 +230,7 @@ export default function LandingPage() {
           id: "exterior-wash",
           badge: "Shine",
           badgeIcon: Sparkles,
-          price: "$75",
+          price: "$60",
           subtitle: "Exterior Wash Package",
           features: [
             "Thorough Hand Wash",
@@ -243,7 +243,7 @@ export default function LandingPage() {
           id: "interior-detail",
           badge: "Refresh",
           badgeIcon: Car,
-          price: "$120",
+          price: "$100",
           subtitle: "Interior Detail Package",
           features: [
             "Deep Vacuuming",
@@ -256,7 +256,7 @@ export default function LandingPage() {
           id: "full-detail",
           badge: "Elite",
           badgeIcon: Star,
-          price: "$180",
+          price: "$160",
           subtitle: "Exterior & Interior Full Detail",
           features: [
             "Premium Hand Wash & Wax",
