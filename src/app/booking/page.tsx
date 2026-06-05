@@ -65,7 +65,6 @@ export default function BookingPage() {
 
         <div id="booking-form" data-section="booking-form">
           <ContactSplitForm
-            tag="Schedule Your Service"
             title="Book Your Mobile Detailing Appointment"
             description="Please fill out the form below with your preferred details. Our team will contact you to confirm your appointment and gather any additional vehicle information."
             inputs={[
@@ -86,7 +85,6 @@ export default function BookingPage() {
             mediaPosition="right"
             buttonText="Confirm Booking"
             onSubmit={(data) => console.log(data)}
-            background={{ variant: "plain" }}
             useInvertedBackground={false}
           />
         </div>
