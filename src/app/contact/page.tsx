@@ -48,7 +48,7 @@ export default function ContactPage() {
             bottomLeftText="Your Car's Best Friend"
             bottomRightText="hello@juniordetailing.com"
             button={{
-              text: "Book Now",              href: "#contact"}}
+              text: "Book Now",              href: "/contact"}}
           />
         </div>
 
@@ -56,15 +56,12 @@ export default function ContactPage() {
           <ContactSplit
             tag="Contact Us"
             title="Get in Touch"
-            description="Have questions, need a quote, or ready to schedule? Reach out to us using the form below, and we'll get back to you promptly. For immediate assistance, you can also text us directly at 848-258-0726."
+            description="Have questions, need a quote, or ready to schedule? Reach out to us. For immediate assistance, you can also text us directly at 848-258-0726. Your Email."
             background={{ variant: "plain" }}
             useInvertedBackground={false}
             imageSrc="http://img.b2bpic.net/free-photo/car-care-concept-male-worker-cleaning-car-with-microfiber-cloth-polishing-car-detailing_182101-700.jpg"
             imageAlt="Person cleaning a car"
             mediaAnimation="slide-up"
-            inputPlaceholder="Your Email"
-            buttonText="Send Message"
-            termsText="By sending your message, you agree to our Privacy Policy and Terms of Service."
           />
         </div>
 
