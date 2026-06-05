@@ -83,8 +83,8 @@ export default function LandingPage() {
       description="Premium car care delivered right to your doorstep. Experience convenience and a showroom shine without leaving your home or office."
       kpis={[
         {
-          value: "500+",
-          label: "Happy Clients",
+          value: "",
+          label: "",
         },
         {
           value: "5",
@@ -107,7 +107,7 @@ export default function LandingPage() {
           href: "#schedule",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/close-up-car-care-process_23-2149193167.jpg"
+      imageSrc="https://img.b2bpic.net/premium-photo/manual-cleaning-with-soap-self-care-car-wash-cleaning-headlights-with-foam-soft-brush-carwash-detailing_255847-12711.jpg?id=250084748"
       imageAlt="Mobile detailing van cleaning a car with a glossy finish"
       mediaAnimation="slide-up"
       avatars={[
