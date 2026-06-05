@@ -319,7 +319,7 @@ export default function LandingPage() {
           quote: "The interior of my car feels brand new. No more lingering odors or stains. It's a huge relief to have such a clean and fresh vehicle without any effort on my part.",
           name: "Jessica L.",
           role: "Real Estate Agent",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-cleaning-her-car-outside_23-2148958782.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EgzsipZwd3Gn5A6GsVUFBvEYFA/tmp/clean-car-bmw-1780621469017-8198758f.png",
           imageAlt: "Smiling woman in professional setting",
         },
       ]}
