@@ -364,7 +364,7 @@ export default function LandingPage() {
         {
           id: "faq-3",
           title: "Do I need to provide water or electricity?",
-          content: "No, our vans are fully equipped with all necessary water and power. We just need access to your vehicle.",
+          content: "yes",
         },
         {
           id: "faq-4",
