@@ -22,6 +22,8 @@ export default function LandingPage() {
     {
       name: "Packages",      id: "#packages"},
     {
+      name: "Booking",      id: "/contact"},
+    {
       name: "About Us",      id: "#about"},
     {
       name: "Testimonials",      id: "#testimonials"},
@@ -140,11 +142,14 @@ export default function LandingPage() {
       carouselMode="buttons"
       features={[
         {
-          title: "Unmatched Convenience",          description: "We come to you, whether at home or work, fitting seamlessly into your busy schedule.",          imageSrc: "http://img.b2bpic.net/free-photo/auto-service-salon-doign-car-wrapping_23-2149593838.jpg",          imageAlt: "Mobile detailing van parked at a customer's home"},
+          title: "Unmatched Convenience",          description: "We come to you, whether at home or work, fitting seamlessly into your busy schedule.",          imageSrc: "http://img.b2bpic.net/free-photo/auto-service-salon-doign-car-wrapping_23-2149593838.jpg",          imageAlt: "Mobile detailing van parked at a customer's home",          button: { text: "Book Now", href: "/contact" }
+        },
         {
-          title: "Superior Quality",          description: "Our experienced detailers use only the finest products and techniques for a flawless finish.",          imageSrc: "http://img.b2bpic.net/free-photo/car-transmission-inside-car-salon-close-up_1303-19223.jpg",          imageAlt: "Close up of a car's shining interior after detailing"},
+          title: "Superior Quality",          description: "Our experienced detailers use only the finest products and techniques for a flawless finish.",          imageSrc: "http://img.b2bpic.net/free-photo/car-transmission-inside-car-salon-close-up_1303-19223.jpg",          imageAlt: "Close up of a car's shining interior after detailing",          button: { text: "Book Now", href: "/contact" }
+        },
         {
-          title: "Eco-Friendly Practices",          description: "We prioritize environmentally safe products and water-saving methods.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-car-care-washing_23-2149172891.jpg",          imageAlt: "Environmentally friendly car wash with foam"},
+          title: "Eco-Friendly Practices",          description: "We prioritize environmentally safe products and water-saving methods.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-car-care-washing_23-2149172891.jpg",          imageAlt: "Environmentally friendly car wash with foam",          button: { text: "Book Now", href: "/contact" }
+        },
       ]}
       title="Our Detailing Process"
       description="We blend meticulous attention to detail with professional-grade products to rejuvenate your vehicle, inside and out. Experience the ultimate convenience of premium car care at your location."
@@ -178,6 +183,9 @@ export default function LandingPage() {
       title="Choose Your Perfect Package"
       description="Select from our tailored detailing packages, each designed to bring out the best in your vehicle. All packages offer additional add-on services for a truly custom experience."
       tag="Our Services"
+      buttons={[
+        { text: "Book Your Service", href: "/contact" }
+      ]}
     />
   </div>
 
@@ -193,9 +201,9 @@ export default function LandingPage() {
         {
           id: "3",          title: "Convenience meets quality.",          quote: "As a busy parent, finding time for a car wash is tough. Junior Mobile Detailing makes it easy, and their results are far superior to any traditional car wash.",          name: "Emily R.",          role: "Stay-at-Home Parent",          imageSrc: "https://img.b2bpic.net/premium-photo/microfiber-cloth-clean-headlight-car-vehicle-person_53876-1112159.jpg?id=418815286",          imageAlt: "Smiling woman with bright background"},
         {
-          id: "4",          title: "Exceptional value and service.",          quote: "I've tried many detailing services, but Junior's stands out. The team is friendly, efficient, and they truly care about delivering perfection. My go-to for car care now.",          name: "David K.",          role: "Tech Professional",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EgzsipZwd3Gn5A6GsVUFBvEYFA/tmp/clean-car-1780621369236-fd245611.png",          imageAlt: "Smiling man with glasses"},
+          id: "4",          title: "Exceptional value and service.",          quote: "I've tried many detailing services, but Junior's stands out. The team is friendly, efficient, and they truly care about delivering perfection. My go-to for car care now.",          name: "David K.",          role: "Tech Professional",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EgzsipZwd3Gn5A6GsVUFBvEYFA/tmp/clean-car-1780621369236-fd245611.png",          alt: "Smiling man with glasses"},
         {
-          id: "5",          title: "A truly refreshing experience!",          quote: "The interior of my car feels brand new. No more lingering odors or stains. It's a huge relief to have such a clean and fresh vehicle without any effort on my part.",          name: "Jessica L.",          role: "Real Estate Agent",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EgzsipZwd3Gn5A6GsVUFBvEYFA/tmp/clean-car-bmw-1780621469017-8198758f.png",          imageAlt: "Smiling woman in professional setting"},
+          id: "5",          title: "A truly refreshing experience!",          quote: "The interior of my car feels brand new. No more lingering odors or stains. It's a huge relief to have such a clean and fresh vehicle without any effort on my part.",          name: "Jessica L.",          role: "Real Estate Agent",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EgzsipZwd3Gn5A6GsVUFBvEYFA/tmp/clean-car-bmw-1780621469017-8198758f.png",          alt: "Smiling woman in professional setting"},
       ]}
       title="What Our Clients Say"
       description="Hear directly from our satisfied customers about the exceptional care and convenience they've experienced with Junior Mobile Detailing."
