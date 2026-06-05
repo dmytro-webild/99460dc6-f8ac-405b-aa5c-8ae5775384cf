@@ -283,7 +283,7 @@ export default function LandingPage() {
           quote: "Junior Mobile Detailing brought my car back to life. The attention to detail was incredible, and the convenience of them coming to my office was a game-changer. Highly recommend!",
           name: "Sarah J.",
           role: "Marketing Executive",
-          imageSrc: "http://img.b2bpic.net/free-photo/man-checking-out-new-car_23-2148130140.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EgzsipZwd3Gn5A6GsVUFBvEYFA/tmp/clean-car-1780621258906-cc3c9bfe.png",
           imageAlt: "Smiling woman in business attire",
         },
         {
