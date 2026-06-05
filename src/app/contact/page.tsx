@@ -66,7 +66,7 @@ export default function ContactPage() {
           <ContactSplit
             tag="Contact Us"
             title="Get in Touch"
-            description="Have questions, need a quote, or ready to schedule? Reach out to us. For immediate assistance, you can also text us directly at 8483580726. Your Email."
+            description="Have questions, need a quote, or ready to schedule? Reach out to us. For immediate assistance, you can also text us directly at 848-358-0726. Your Email."
             background={{ variant: "plain" }}
             useInvertedBackground={false}
             imageSrc="http://img.b2bpic.net/free-photo/car-care-concept-male-worker-cleaning-car-with-microfiber-cloth-polishing-car-detailing_182101-700.jpg"
