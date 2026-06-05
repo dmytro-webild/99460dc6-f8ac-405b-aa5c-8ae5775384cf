@@ -139,7 +139,7 @@ export default function LandingPage() {
       carouselMode="buttons"
       features={[
         {
-          title: "Unmatched Convenience",          description: "We come to you, whether at home or work, fitting seamlessly into your busy schedule.",          imageSrc: "http://img.b2bpic.net/free-photo/auto-service-salon-doign-car-wrapping_23-2149593838.jpg",          imageAlt: "Mobile detailing van parked at a customer's home"},
+          title: "Unmatched Convenience",          description: "We come to your home, fitting seamlessly into your busy schedule.",          imageSrc: "http://img.b2bpic.net/free-photo/auto-service-salon-doign-car-wrapping_23-2149593838.jpg",          imageAlt: "Mobile detailing van parked at a customer's home"},
         {
           title: "Superior Quality",          description: "Our experienced detailers use only the finest products and techniques for a flawless finish.",          imageSrc: "http://img.b2bpic.net/free-photo/car-transmission-inside-car-salon-close-up_1303-19223.jpg",          imageAlt: "Close up of a car's shining interior after detailing"},
         {
