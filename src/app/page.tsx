@@ -11,6 +11,7 @@ import PricingCardOne from '@/components/sections/pricing/PricingCardOne';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import TestimonialCardTen from '@/components/sections/testimonial/TestimonialCardTen';
+import ContactCenter from '@/components/sections/contact/ContactCenter';
 import { Car, Facebook, Instagram, Leaf, Sparkles, Star, Twitter } from "lucide-react";
 
 export default function LandingPage() {
@@ -22,7 +23,7 @@ export default function LandingPage() {
     {
       name: "Packages",      id: "#packages"},
     {
-      name: "Booking",      id: "/contact"},
+      name: "Booking",      id: "#booking"},
     {
       name: "About Us",      id: "#about"},
     {
@@ -56,7 +57,7 @@ export default function LandingPage() {
       bottomLeftText="Your Car's Best Friend"
       bottomRightText="hello@juniordetailing.com"
       button={{
-        text: "Book Now",        href: "/contact"}}
+        text: "Book Now",        href: "#booking"}}
     />
   </div>
 
@@ -81,7 +82,7 @@ export default function LandingPage() {
         {
           text: "Explore Packages",          href: "#packages"},
         {
-          text: "Schedule Now",          href: "/contact"},
+          text: "Schedule Now",          href: "#booking"},
       ]}
       imageSrc="https://img.b2bpic.net/premium-photo/manual-cleaning-with-soap-self-care-car-wash-cleaning-headlights-with-foam-soft-brush-carwash-detailing_255847-12711.jpg?id=250084748"
       imageAlt="Mobile detailing van cleaning a car with a glossy finish"
@@ -142,13 +143,13 @@ export default function LandingPage() {
       carouselMode="buttons"
       features={[
         {
-          title: "Unmatched Convenience",          description: "We come to you, whether at home or work, fitting seamlessly into your busy schedule.",          imageSrc: "http://img.b2bpic.net/free-photo/auto-service-salon-doign-car-wrapping_23-2149593838.jpg",          imageAlt: "Mobile detailing van parked at a customer's home",          button: { text: "Book Now", href: "/contact" }
+          title: "Unmatched Convenience",          description: "We come to you, whether at home or work, fitting seamlessly into your busy schedule.",          imageSrc: "http://img.b2bpic.net/free-photo/auto-service-salon-doign-car-wrapping_23-2149593838.jpg",          imageAlt: "Mobile detailing van parked at a customer's home",          button: { text: "Book Now", href: "#booking" }
         },
         {
-          title: "Superior Quality",          description: "Our experienced detailers use only the finest products and techniques for a flawless finish.",          imageSrc: "http://img.b2bpic.net/free-photo/car-transmission-inside-car-salon-close-up_1303-19223.jpg",          imageAlt: "Close up of a car's shining interior after detailing",          button: { text: "Book Now", href: "/contact" }
+          title: "Superior Quality",          description: "Our experienced detailers use only the finest products and techniques for a flawless finish.",          imageSrc: "http://img.b2bpic.net/free-photo/car-transmission-inside-car-salon-close-up_1303-19223.jpg",          imageAlt: "Close up of a car's shining interior after detailing",          button: { text: "Book Now", href: "#booking" }
         },
         {
-          title: "Eco-Friendly Practices",          description: "We prioritize environmentally safe products and water-saving methods.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-car-care-washing_23-2149172891.jpg",          imageAlt: "Environmentally friendly car wash with foam",          button: { text: "Book Now", href: "/contact" }
+          title: "Eco-Friendly Practices",          description: "We prioritize environmentally safe products and water-saving methods.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-car-care-washing_23-2149172891.jpg",          imageAlt: "Environmentally friendly car wash with foam",          button: { text: "Book Now", href: "#booking" }
         },
       ]}
       title="Our Detailing Process"
@@ -184,8 +185,20 @@ export default function LandingPage() {
       description="Select from our tailored detailing packages, each designed to bring out the best in your vehicle. All packages offer additional add-on services for a truly custom experience."
       tag="Our Services"
       buttons={[
-        { text: "Book Your Service", href: "/contact" }
+        { text: "Book Your Service", href: "#booking" }
       ]}
+    />
+  </div>
+
+  <div id="booking" data-section="booking">
+      <ContactCenter
+      tag="Book Your Appointment"
+      title="Schedule Your Mobile Detailing Service"
+      description="Ready for a sparkling clean car? Fill out the form below to book your appointment. We'll confirm your preferred time and location shortly."
+      background={{ variant: 'radial-gradient' }}
+      inputPlaceholder="Your Email"
+      buttonText="Book Now"
+      termsText="By clicking 'Book Now' you agree to our booking terms and conditions."
     />
   </div>
 
@@ -203,7 +216,7 @@ export default function LandingPage() {
         {
           id: "4",          title: "Exceptional value and service.",          quote: "I've tried many detailing services, but Junior's stands out. The team is friendly, efficient, and they truly care about delivering perfection. My go-to for car care now.",          name: "David K.",          role: "Tech Professional",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EgzsipZwd3Gn5A6GsVUFBvEYFA/tmp/clean-car-1780621369236-fd245611.png",          imageAlt: "Smiling man with glasses"},
         {
-          id: "5",          title: "A truly refreshing experience!",          quote: "The interior of my car feels brand new. No more lingering odors or stains. It's a huge relief to have such a clean and fresh vehicle without any effort on my part.",          name: "Jessica L.",          role: "Real Estate Agent",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EgzsipZwd3Gn5A6GsVUFBvEYFA/tmp/clean-car-bmw-1780621469017-8198758f.png",          imageAlt: "Smiling woman in professional setting"},
+          id: "5",          title: "A truly refreshing experience!",          quote: "The interior of my car feels brand new. No more lingering odors or stains. It's a huge relief to have such a clean and fresh vehicle without any effort on my part.",          name: "Jessica L.",          role: "Real Estate Agent",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EgzsipZwd3Gn5A6GsVUFBvEYFA/tmp/clean-car-bmw-1780621469017-8198758f.png",          alt: "Smiling woman in professional setting"},
       ]}
       title="What Our Clients Say"
       description="Hear directly from our satisfied customers about the exceptional care and convenience they've experienced with Junior Mobile Detailing."
