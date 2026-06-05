@@ -369,7 +369,7 @@ export default function LandingPage() {
         {
           id: "faq-4",
           title: "What payment methods do you accept?",
-          content: "We accept all major credit cards, debit cards, and mobile payment options for your convenience.",
+          content: "We accept cash and apple pay",
         },
         {
           id: "faq-5",
