@@ -10,19 +10,29 @@ import { Facebook, Instagram, Twitter } from "lucide-react";
 export default function ContactPage() {
   const navItems = [
     {
-      name: "Home",      id: "/"},
+      name: "Home",      id: "/"
+    },
     {
-      name: "Services",      id: "/#services"},
+      name: "Services",      id: "/#services"
+    },
     {
-      name: "Packages",      id: "/#packages"},
+      name: "Packages",      id: "/#packages"
+    },
     {
-      name: "About Us",      id: "/#about"},
+      name: "Booking",      id: "/booking"
+    },
     {
-      name: "Testimonials",      id: "/#testimonials"},
+      name: "About Us",      id: "/#about"
+    },
     {
-      name: "FAQ",      id: "/#faq"},
+      name: "Testimonials",      id: "/#testimonials"
+    },
     {
-      name: "Contact Us",      id: "/contact"},
+      name: "FAQ",      id: "/#faq"
+    },
+    {
+      name: "Contact Us",      id: "/contact"
+    }
   ];
 
   return (
@@ -48,7 +58,7 @@ export default function ContactPage() {
             bottomLeftText="Your Car's Best Friend"
             bottomRightText="hello@juniordetailing.com"
             button={{
-              text: "Book Now",              href: "/contact"}}
+              text: "Book Now",              href: "/booking"}}
           />
         </div>
 
@@ -74,13 +84,16 @@ export default function ContactPage() {
             socialLinks={[
               {
                 icon: Facebook,
-                href: "#",                ariaLabel: "Facebook"},
+                href: "#",                ariaLabel: "Facebook"
+              },
               {
                 icon: Instagram,
-                href: "#",                ariaLabel: "Instagram"},
+                href: "#",                ariaLabel: "Instagram"
+              },
               {
                 icon: Twitter,
-                href: "#",                ariaLabel: "Twitter"},
+                href: "#",                ariaLabel: "Twitter"
+              }
             ]}
           />
         </div>
