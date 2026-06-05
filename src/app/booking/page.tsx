@@ -84,7 +84,10 @@ export default function BookingPage() {
             imageAlt="Car being detailed"
             mediaPosition="right"
             buttonText="Confirm Booking"
-            onSubmit={(data) => console.log(data)}
+            onSubmit={(data) => {
+              console.log("Booking form submitted:", data);
+              alert("Your booking request has been submitted successfully! We will contact you shortly to confirm.");
+            }}
             useInvertedBackground={false}
           />
         </div>
