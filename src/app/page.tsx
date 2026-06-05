@@ -310,7 +310,7 @@ export default function LandingPage() {
           quote: "I've tried many detailing services, but Junior's stands out. The team is friendly, efficient, and they truly care about delivering perfection. My go-to for car care now.",
           name: "David K.",
           role: "Tech Professional",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-fastening-helmet-man_23-2147764135.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EgzsipZwd3Gn5A6GsVUFBvEYFA/tmp/clean-car-1780621369236-fd245611.png",
           imageAlt: "Smiling man with glasses",
         },
         {
